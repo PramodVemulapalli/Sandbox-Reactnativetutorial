@@ -25,10 +25,19 @@ export default class App extends React.Component {
               settings: { screen: SettingsScreen }
             })
           }
+      },
+      {
+        tabBarPosition: 'bottom',
+        lazyload: true
       })
-     }
-    }
-  );
+    },
+  },
+  {
+    tabBarPosition: 'bottom',
+    lazyload: true,
+    swipeEnabled: false,
+    animationEnabled: false,  
+  });
 
     return (
       <View style={styles.container}>
