@@ -21,7 +21,7 @@ class WelcomeScreen extends Component {
     console.log('here is the token');
     console.log(token);
     if (token) {
-      // await AsyncStorage.removeItem('fb_token');
+      await AsyncStorage.removeItem('fb_token');
       this.props.navigation.navigate('mapscr');
       this.setState({ token });
     } else {
