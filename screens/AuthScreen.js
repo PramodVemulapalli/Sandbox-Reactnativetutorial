@@ -7,13 +7,14 @@ class AuthScreen extends Component {
   componentDidMount() {
 
     if ( Platform.OS === 'ios' ) {
-      this.props.facebookLogin();
+      // this.props.facebookLogin();
+      this.props.dummyLogin();
     }
     if ( Platform.OS === 'android' ) {
       this.props.dummyLogin();
     }
     this.onAuthComplete(this.props);
-    
+
   }
 
   componentWillReceiveProps(nextProps) {
