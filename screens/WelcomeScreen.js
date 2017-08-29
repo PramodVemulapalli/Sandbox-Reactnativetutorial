@@ -6,9 +6,9 @@ import { AppLoading } from 'expo';
 
 
 const SLIDE_DATA = [
-  { text: 'We get our partner restaurants to cook fresh, healthy, food everyday', color: '#03A9F4' },
-  { text: 'We refrigerate the food and get it from our partners on the same day', color: '#009688'},
-  { text: 'We deliver it to your office before 5 PM on the same day so that you donot have to worry about dinner', color: '#03A9F4' }
+  { text: 'Select a Location', color: '#03A9F4' },
+  { text: 'Search for jobs in that location', color: '#009688'},
+  { text: 'Pick from those jobs and apply', color: '#03A9F4' }
 ];
 
 class WelcomeScreen extends Component {
